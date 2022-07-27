@@ -12,4 +12,20 @@ public class HomeController {
         return "Hello, World";
     }
 
+    @RequestMapping("/api/hello")
+    public @ResponseBody String greeting() {
+        return "Hello, World";
+    }
+
+    @RequestMapping("/api/hello1")
+    public @ResponseBody String greeting1() {
+        return "Hello, World";
+    }
+
+    @RequestMapping("/api/hello2")
+    public @ResponseBody String greeting2() {
+        return "Hello, World";
+    }
+        
+    
 }
