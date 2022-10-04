@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.javamonkey</groupId>
   <artifactId>todo-backend</artifactId>
-  <version>1.0.2-SNAPSHOT</version>
+  <version>1.0.2</version>
 
   <properties>
     <java.version>8</java.version>
@@ -17,7 +17,7 @@
 
   <scm>
     <developerConnection>scm:git:https://github.com/JavaMonkey-io/todo-backend.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>releases/1.0.2</tag>
   </scm>
 
   <dependencyManagement>
